@@ -11,7 +11,7 @@ module.exports = {
     },
     ecmaVersion: 2020,
     sourceType: 'module',
-    project: './tsconfig.json',
+    project: path.join(__dirname, "tsconfig.eslint.json")
   },
   extends: ['plugin:@typescript-eslint/recommended-requiring-type-checking'],
   plugins: ['react', 'react-hooks', '@typescript-eslint'],
